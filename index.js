@@ -9,8 +9,8 @@ global.THREE = require('three')
 
 async function main () {
   const viewDistance = 6
-  const host = prompt('Host', 'localhost')
-  const port = parseInt(prompt('Port', '50937'))
+  const host = prompt('Host', 'ishukaserver.aternos.me')
+  const port = parseInt(prompt('Port', '28193'))
   const username = prompt('Username', 'pviewer_person')
   let password = prompt('Password (blank for offline)')
   password = password === '' ? undefined : password
